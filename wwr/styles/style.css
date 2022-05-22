@@ -1,4 +1,6 @@
 
+@import url@import url('https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
         margin: 0 auto;
@@ -7,13 +9,24 @@ div.button-box {
     text-align: center
     
 }
+.home-title {
+    font-family: Forum, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    
+}
 nav a {
-    text-align: center
+    text-align: center;
     text-decoration: none;
-    color: black
+    color: black;
+    font-family: Forum, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
-    text-align: center
+    text-align: center;
+    line-height: 1.5em;
+    font-size: .8em;
 }
 main.home-grid {
     text-align: center
@@ -23,10 +36,18 @@ main.home-grid {
 }
 body {
     background-color: #FFD166; 
+    font-family: Noto Sans, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#41D3BD;
     color: black
+    font-family: Forum, Helvetica, sans-serif;
+}
+h2 {
+    margin: 0;
 }
 nav a:hover {
     background-color: #41D3BD;
@@ -36,17 +57,28 @@ nav a:hover {
 footer {
     background-color: #41D3BD;
     text-decoration: underline;
-    color: black
+    color: black;
+    padding: 25px 50px;
+        margin-top: 200px;
 }
 .book {
     background-color: #FFD166;
     text-decoration: none;
-    color: black
+    color: black;
+    font-size: 30px;
+    padding: 15px 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 5px
 }
 .join {
     background-color: #FFD166;
     text-decoration: none;
-    color: black
+    color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px
 }
 .book:hover {
     background-color: #DE6449;
@@ -59,6 +91,7 @@ footer {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%; 
@@ -74,4 +107,33 @@ footer h3 {
 footer a:hover {
     text-decoration: underline;
     color: #DE6449
+}
+.msg {
+    padding: 35px; 
+}
+.msg p {
+    padding-bottom: 15px;
+} 
+.social {
+    padding-top: 15px;
+}
+.card-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #DE6449;
+  box-sizing: border-box;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.mountains {
+    border: 10px solid #DE6449;
+    box-sizing: border-box;
 }
